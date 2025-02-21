@@ -5,21 +5,18 @@ import java.util.Scanner;
 
 public class twentythree {
     public static void main(String[] args) {
-     /*   System.out.print("Enter the number:");
-        Scanner input=new Scanner(System.in);
-
+        //program to find the factorial of the given number;
+        Scanner input=new Scanner (System.in);
+        System.out.print("Enter the number for the factorial:");
         int value=input.nextInt();
-        func(value);*/
+        System.out.print("The number are: " );
 
-        int value =234333353;
+        for (int i=1; i<=value;i++){
+            if(value%i==0){
+                System.out.print(i + " ,");
+            }
+        }
 
 
     }
-    /*static void func(int value){
-        for(int i=1; i<=value;i++){
-            if(value%i==0){
-                System.out.println("number are:" + i);
-            }
-        }
-    }*/
 }
