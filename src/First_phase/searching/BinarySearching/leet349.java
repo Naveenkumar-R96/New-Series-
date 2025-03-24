@@ -8,9 +8,9 @@ public class leet349 {
         int[] nums1={1,2,2,1};
         int[] nums2={2,2};
 
-        int ans=intersection(nums1,nums2);
+        // ans=intersection(nums1,nums2);
     }
-    static int intersection(int[] nums1,int[] nums2){
+  /*  static int intersection(int[] nums1,int[] nums2){
         //naveen-kumar-1361252b7
-    }
+    }*/
 }
