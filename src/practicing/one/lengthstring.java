@@ -8,11 +8,12 @@ public class lengthstring {
         String str = Arrays.toString(arr); // Output: [Hello, World, Java]
         int right=arr.length-1;
         System.out.println(str);
-         System.out.println(func(arr));
+   //      System.out.println(func(arr));
     }
-    static String[] func(String[] value){
+ /*   static String[] func(String[] value){
         int left=0;
         int right=value.length-1;
-        return new String[]
-    }
+        String summa="adf";
+        return  summa;
+    }*/
 }
