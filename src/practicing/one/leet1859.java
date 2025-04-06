@@ -9,6 +9,8 @@ public class leet1859 {
 
             for (int i = 0; i < words.length; i++) {
                 String word = words[i];
+
+
                 int index = word.charAt(word.length() - 1) - '0';
                 res[index - 1] = word.substring(0, word.length() - 1);
             }
