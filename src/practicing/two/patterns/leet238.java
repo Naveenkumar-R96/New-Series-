@@ -1,4 +1,4 @@
-package practicing.two;
+package practicing.two.patterns;
 
 import java.util.Arrays;
 
