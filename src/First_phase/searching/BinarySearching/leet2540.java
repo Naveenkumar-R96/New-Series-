@@ -2,7 +2,7 @@ package First_phase.searching.BinarySearching;
 
 public class leet2540 {
     public static void main(String[] args) {
-       int[] nums1 ={2,3,6};
+       int[] nums1 ={2,3,5};
        int[] nums2={0,1,4,5};
 
        int ans=getans(nums1,nums2);

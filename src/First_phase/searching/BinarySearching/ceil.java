@@ -6,7 +6,7 @@ public class ceil {
         int[] arr={2,4,6,8,9,11,14,16};
         int start=0;
         int end=arr.length -1;
-        System.out.println(end);
+
         int ceil=-1;
         //binary search;
 
@@ -16,14 +16,14 @@ public class ceil {
 
             if(arr[mid]>target){
                 end=mid-1;
-
+                ceil=arr[mid];
             }
             else if(arr[mid]<target){
                 start=mid+1;
-                ceil=arr[mid];
+
             }
             else{
-                System.out.println(arr[mid]);
+                System.out.println("9");
             }
         }
         System.out.println(ceil);

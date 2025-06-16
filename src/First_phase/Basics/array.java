@@ -1,5 +1,6 @@
 package First_phase.Basics;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -34,6 +35,8 @@ public class array {
         str[1]="kunal";*/
 
         //multi dimenstionl arary
+        int[] val={12,2324};
+        System.out.println(Arrays.toString(val));
 
         int [][] arr=new int[2][2];
         Scanner in=new Scanner(System.in);
@@ -44,6 +47,7 @@ public class array {
             }
             System.out.println();
         }
+        System.out.println(Arrays.deepToString(arr));
         //output
        /* System.out.println(Arrays.toString(arr));
 
@@ -54,8 +58,8 @@ public class array {
             System.out.println();
         }*/
 
-        for(int row=0; row<arr.length; row++){
+       /* for(int row=0; row<arr.length; row++){
             System.out.println(Arrays.toString(arr[row]));
-        }
+        }*/
     }
 }
