@@ -28,7 +28,7 @@ public class leet88 {
         }*//*
         System.out.println(Arrays.toString(nums));*/
 
-        String word="abcdefd";
+    /*    String word="abcdefd";
         char ch='d';
         int ind=-1;
         for (int i=0;i<word.length();i++){
@@ -46,6 +46,6 @@ public class leet88 {
             word.charAt(right)=temp;
             left++;
             right++;
-        }
+        }*/
     }
 }
