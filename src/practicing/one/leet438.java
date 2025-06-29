@@ -2,7 +2,7 @@ package practicing.one;
 
 public class leet438 {
     public static void main(String[] args) {
-        int[] arr={2,2,2,2,5,5,5,8};
+        /*int[] arr={2,2,2,2,5,5,5,8};
         int k=3;
         int ok=4;
         leet438 obj=new leet438();
@@ -29,6 +29,6 @@ public class leet438 {
             }
 
         }
-        return count;
+        return count;*/
     }
 }
